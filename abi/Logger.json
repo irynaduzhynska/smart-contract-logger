@@ -1,0 +1,67 @@
+[
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "card",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "currency",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "logTransfer",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "card",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "currency",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "Transfer",
+    "type": "event"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
